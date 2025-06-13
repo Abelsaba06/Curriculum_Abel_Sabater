@@ -1,6 +1,10 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: rgba(128, 217, 217, 0.792);
+}
+h1{
+    text-align: center;
 }
 .navegador{
     display: inline-flex;
@@ -9,9 +13,9 @@ body{
 }
 .navegador a{
     width: 100px;
-    height: 50px;
+    height: 70px;
     background-color: blue;
-    border-radius: 30px;
+    border-radius: 70px;
     margin: auto;
     color:white;
     text-decoration: none;
@@ -44,12 +48,23 @@ p{
     justify-content:center;
     flex-direction: column;
     align-items: center;
+    padding: 30px;
+}
+.container2{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items: center;
+   padding: 10px;
 }
 
 @media screen and (max-width:767px){
    .container{
-        display: inline-block;
-    } 
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 @media screen and (min-width:768px){
     h1{
